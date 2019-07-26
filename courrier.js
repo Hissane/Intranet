@@ -30,3 +30,24 @@ $(window).on("load", () => {
   const courriersTableBody = $("#courriers");
   courriers.map(makeCourrier).forEach(line => courriersTableBody.append(line));
 });
+
+// const API_ROOT = "http://localhost:1337/";
+
+// const makeCourrier = ({ref, src, obj}) => (
+//   `<tr>
+//     <th scope="row"></th>
+//     <td>${ref}</td>
+//     <td>${src}</td>
+//     <td>${obj}</td>
+//     <td><i class="fas fa-file-pdf"></i></td>
+//   </tr>`
+// );
+
+// $(window).on("load", () => {
+//   const courriersTableBody = $("#courriers");
+//   const spinner = $("#spinner");
+//   fetch(API_ROOT)
+//     .then(res => res.json())
+//     .then(spinner.remove())
+//     .then(courriers => courriers.map(makeCourrier).forEach(line => courriersTableBody.append(line)))
+// });

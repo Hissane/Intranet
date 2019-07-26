@@ -8,20 +8,35 @@
   <title>DCP-Workspace-Reunions</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <link href="/css/all.css" rel="stylesheet">
+  <!--load all styles -->
   <script src="https://kit.fontawesome.com/0ac010ac15.js"></script>
 </head>
 
 <body>
   <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand mr-auto" href="#">
       <img src="https://mabourse.enssup.gov.ma/img/logo-header.png" width="400" height="70" alt="">
     </a>
-    <i class="fas fa-sign-out-alt fa-2x mr-3 "></i>
+    <div style="display: inherit">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" style="z-index: 9999 !important;">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <i class="fas fa-sign-out-alt fa-2x mr-3 ml-4"></i>
+    </div>
   </nav>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">DCP</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,48 +66,48 @@
   <div class="container pt-3">
     <div class="p-5 pt-2 pb-2 mt-5 mb-5 border rounded">
       <h1 class="text-center  pb-5">Reunions</h1>
-          <table class="table pt-3">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col">Sujet</th>
-                <th scope="col">Date et Heure</th>
-                <th scope="col">Statut</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row"></th>
-                <td>Bourses Tunisie</td>
-                <td>13/07/2019 a 14h30</td>
-                <td>Accepted</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>Bourses Chine</td>
-                <td>24/06/2019 a 10h30</td>
-                <td>Declined</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>Concours d'acces sur titre</td>
-                <td>09/09/2019 a 15h</td>
-                <td>Accepted</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>Conges</td>
-                <td>30/06/2019 a 15h</td>
-                <td>Accepted</td>
-              </tr>
-              <tr>
-                <th scope="row"></th>
-                <td>Entretiens de Bourses</td>
-                <td>15/07/2019 a 15h</td>
-                <td>Declined</td>
-              </tr>
-            </tbody>
-          </table>
+      <table class="table pt-3">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Sujet</th>
+            <th scope="col">Date et Heure</th>
+            <th scope="col">Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td>Bourses Tunisie</td>
+            <td>13/07/2019 a 14h30</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Bourses Chine</td>
+            <td>24/06/2019 a 10h30</td>
+            <td>Declined</td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Concours d'acces sur titre</td>
+            <td>09/09/2019 a 15h</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Conges</td>
+            <td>30/06/2019 a 15h</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>Entretiens de Bourses</td>
+            <td>15/07/2019 a 15h</td>
+            <td>Declined</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
   <footer class="ge-footer bg-light">

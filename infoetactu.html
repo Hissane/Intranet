@@ -10,6 +10,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="/css/all.css" rel="stylesheet"> <!--load all styles -->
   <script src="https://kit.fontawesome.com/0ac010ac15.js"></script>
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -17,7 +18,9 @@
     <a class="navbar-brand" href="#">
       <img src="https://mabourse.enssup.gov.ma/img/logo-header.png" width="400" height="70" alt="">
     </a>
-    <i class="fas fa-sign-out-alt fa-2x mr-3 "></i>
+    <button class="icon-btn">
+      <i class="fas fa-sign-out-alt fa-2x mr-3 "></i>
+    </button>
   </nav>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">DCP</a>
@@ -50,7 +53,17 @@
 
 <div class="container pt-3">
   <div class="p-5 pt-2 pb-2 mt-5 mb-5 border rounded">
-    <h1 class="text-center pb-5" >Infos et Actualités</h1>
+    <div class="row pb-5">
+      <div class="col"></div>
+      <div class="col text-center">
+        <h1>Infos et Actualités</h1>
+      </div>
+      <div class="col text-right">
+        <button class="icon-btn">
+          <i class="fas fa-plus-circle fa-3x"></i>
+        </button>
+      </div>
+    </div>
     <div class="card-columns">
       <div class="card">
         <img src="..." class="card-img-top" alt="...">

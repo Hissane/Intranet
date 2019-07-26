@@ -5,29 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DCP-Workspace-Evenement</title>
+  <title>DCP-Workspace-Courrier</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="/css/all.css" rel="stylesheet">
-  <!--load all styles -->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="./evenements.js"></script>
-  <link href='https://unpkg.com/@fullcalendar/core@4.2.0/main.min.css' rel='stylesheet' />
-  <link href='https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.css' rel='stylesheet' />
+  <link href="/css/all.css" rel="stylesheet"> <!--load all styles -->
+  <script src="https://kit.fontawesome.com/0ac010ac15.js"></script>
+</head>
 
 <body>
-  <nav class="navbar navbar-white bg-white">
+  <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img src="https://mabourse.enssup.gov.ma/img/logo-header.png" width="400" height="70" alt="">
     </a>
-    <i class="fas fa-sign-out-alt"></i>
+    <i class="fas fa-sign-out-alt fa-2x mr-3 "></i>
   </nav>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">DCP</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -38,8 +32,8 @@
         <li class="nav-item">
           <a class="nav-link" href="./reunions.html">Reunions</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Evenements</a>
+        <li class="nav-item">
+          <a class="nav-link" href="./evenements.html">Evenements</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./autorisations.html">Autorisations</a>
@@ -54,14 +48,48 @@
     </div>
   </nav>
 
-  <div class="container pt-3">
-    <div class="p-5 pt-2 pb-2 mt-5 border rounded">
-      <h1 class="text-center pb-5">Calendrier</h1>
+<div class="container pt-3">
+  <div class="p-5 pt-2 pb-2 mt-5 mb-5 border rounded">
+    <h1 class="text-center pb-5" >Organigramme</h1>
+    <hr />
+    <img src="./organidcp.png" class="img-fluid" alt="Responsive image">
+  </div>
+</div>
+<footer class="ge-footer bg-light">
+  <div class="container ">
 
-      <div id="calendar"></div>
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12 py-5 text-center">
+        <div class="mb-3 mt-3 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="https://www.facebook.com/DcpEnsSup">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" href="https://twitter.com/DcpEnsSup">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" href="https://www.linkedin.com/in/DcpEnsSup">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="https://www.instagram.com/DcpEnsSup/">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
 
     </div>
+    <!-- Grid row-->
+
   </div>
+</footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -71,8 +99,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.js"></script>
-  <script src="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.js"></script>
 </body>
 
 </html>

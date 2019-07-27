@@ -20,6 +20,18 @@ const infos = [
     title: "Info 4",
     body:
       "Proin suscipit ipsum vel lacus suscipit iaculis. Morbi lacinia justo at consequat molestie. Vestibulum vulputate volutpat ante et lobortis. Proin luctus euismod urna, ut vehicula ex finibus at. Nam a augue eget diam egestas tincidunt. Aliquam vel ullamcorper nulla, id facilisis libero. Mauris sed nisi a eros sollicitudin varius."
+  },
+  ,
+  {
+    title: "Info 5",
+    body:
+      "Proin suscipit ipsum vel lacus suscipit iaculis. Morbi lacinia justo at consequat molestie. Vestibulum vulputate volutpat ante et lobortis. Proin luctus euismod urna, ut vehicula ex finibus at. Nam a augue eget diam egestas tincidunt. Aliquam vel ullamcorper nulla, id facilisis libero. Mauris sed nisi a eros sollicitudin varius."
+  },
+  {
+    title: "Info 6",
+    body:
+      "Proin suscipit ipsum vel lacus suscipit iaculis. Morbi lacinia justo at consequat molestie. Vestibulum vulputate volutpat ante et lobortis. Proin luctus euismod urna, ut vehicula ex finibus at. Nam a augue eget diam egestas tincidunt. Aliquam vel ullamcorper nulla, id facilisis libero. Mauris sed nisi a eros sollicitudin varius.",
+    img: "https://www.newton.ac.uk/files/covers/968361.jpg"
   }
 ];
 
@@ -28,7 +40,7 @@ const makeInfoCard = ({ title, body, img }) => {
   return `<div class="card">
       ${img ? imgTag : ""}
       <div class="card-body">
-        <h5 class="card-title">${title}</h5>
+        <h3 class="card-title">${title}</h3>
         <p class="card-text">${body.substring(0, 80) +
           (body.length > 80 ? "..." : "")}</p>
         <p class="card-text text-right">

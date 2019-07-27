@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DCP Intranet | Événements</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link
+      href="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-2 pt-1"></div>
+          <div class="col-8 text-center">
+            <a href="#">
+              <img src="../assets/logo.png" alt="DCP Logo" />
+            </a>
+          </div>
+          <div class="col-2 d-flex justify-content-end align-items-center">
+            <div class="dropdown">
+              <button
+                class="btn btn-outline-secondary dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+              >
+                John Doe
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">
+                  <i class="fas fa-user mr-2"></i>
+                  Profile
+                </button>
+                <div class="dropdown-divider"></div>
+                <button class="dropdown-item" type="button">
+                  <i class="fas fa-sign-out-alt mr-2 "></i>
+                  Logout
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-2 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 text-muted" href="./acceuil.html">Accueil</a>
+          <a class="p-2 text-muted" href="./courriers.html">Courriers</a>
+          <a class="p-2 text-muted" href="./reunions.html">Réunions</a>
+          <a class="p-2 text-muted active" href="./evenements.html">
+            Événements
+          </a>
+          <a class="p-2 text-muted" href="./autorisations.html">
+            Autorisations
+          </a>
+          <a class="p-2 text-muted" href="./demande_materiel.html">
+            Demandes de materiel
+          </a>
+          <a class="p-2 text-muted" href="./info_actu.html">
+            Infos et Actualités
+          </a>
+        </nav>
+      </div>
+
+      <div class="p-5 py-2 my-4">
+        <h1 class="text-center pb-5">Calendrier</h1>
+
+        <div id="calendar"></div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/0ac010ac15.js"></script>
+    <script src="https://unpkg.com/@fullcalendar/core@4.2.0/main.min.js"></script>
+    <script src="https://unpkg.com/@fullcalendar/daygrid@4.2.0/main.min.js"></script>
+    <script src="../js/evenements.js"></script>
+  </body>
+</html>

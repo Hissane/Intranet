@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+html,
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.active {
+  color: black !important;
+}
+
+.nav-scroller {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-scroller a {
+  text-decoration: none;
+}
+
+.nav-scroller a:hover {
+  opacity: 0.7;
+}
+
+.dropdown button {
+  border-radius: 0 !important;
+  border: none;
+}
+
+.dropdown button:hover {
+  background-color: transparent !important;
+  color: #6c757d !important;
+  box-shadow: none !important;
+}
+
+.dropdown button:focus {
+  background-color: transparent !important;
+  color: #6c757d !important;
+  box-shadow: none !important;
+}

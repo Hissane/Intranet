@@ -47,3 +47,7 @@ body {
   color: #6c757d !important;
   box-shadow: none !important;
 }
+
+.card {
+  box-shadow: 2px 2px 4px #adadad;
+}
